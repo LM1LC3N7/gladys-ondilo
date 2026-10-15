@@ -10,6 +10,8 @@ the notes of the version's GitHub Release.
 
 ## [Unreleased]
 
+## [0.1.1] - 2026-10-15
+
 ### Added
 
 - Ondilo account linked through the "Connect" button (OAuth2, the official
@@ -29,4 +31,5 @@ the notes of the version's GitHub Release.
 - Cloud badge on the devices, flagged when no measure arrived for 3 hours.
 - Feature names in French or English.
 
-[Unreleased]: https://github.com/LM1LC3N7/gladys-ondilo/commits/main
+[Unreleased]: https://github.com/LM1LC3N7/gladys-ondilo/compare/v0.1.1...HEAD
+[0.1.1]: https://github.com/LM1LC3N7/gladys-ondilo/releases/tag/v0.1.1
