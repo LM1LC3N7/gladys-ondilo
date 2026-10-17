@@ -81,6 +81,11 @@ reads everything at once and shows a summary (at most every 5 minutes).
 
 The recommendations keep the language of your Ondilo account.
 
+## Limitations
+
+- Salt and TDS are shown in ppm (= mg/L) with a generic icon: Gladys has no
+  category for these measures yet.
+
 ## Troubleshooting
 
 - **"Ondilo refused the saved authorization"**: the password of the Ondilo

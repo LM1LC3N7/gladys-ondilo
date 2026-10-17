@@ -47,6 +47,18 @@ No dedicated topic for this integration. Once the 10 integrations claimed on
   the pool, so the history continues when the ICO is replaced.
 - **Salt in ppm**: Gladys has no salt category nor g/L unit; Ondilo returns
   mg/L, which is ppm in water. Salt and TDS are `unknown`/`unknown` sensors.
+- **Salt and TDS in ppm, a deliberate exception** (2026-10-17, Louis): the
+  core lists `ppm` only for the CO/CO2 categories in
+  `DEVICE_FEATURE_UNITS_BY_CATEGORY` and has no entry for `unknown`; the server
+  still accepts it (global unit list), and the UI shows "4000 ppm" with a
+  generic icon, unit not editable. CO/CO2 sensors would be wrong: they mean a
+  gas concentration in the air, so the pool would show a "CO2: 4000 ppm"
+  reading with the gas icon and wording, misleading in the UI and in scenes. The existing features will not change: category and
+  unit are fixed at creation, and the external id key of a feature must never
+  change (it would duplicate the feature and lose its history). An issue on
+  GladysAssistant/Gladys proposes `salinity-sensor` and `tds-sensor`
+  categories; once the core has them, only newly created devices will use
+  them.
 - **States dated with `value_time`**: the measure of 09:49 read at 10:54 is
   recorded at 09:49. Each measure is sent once (deduplicated on its time).
 - **No `should_poll`**: Gladys polls at most every minute; the integration

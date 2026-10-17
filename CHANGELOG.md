@@ -14,6 +14,8 @@ the notes of the version's GitHub Release.
 
 - README: the store install note replaces the work-in-progress notice, and the
   Releasing section no longer says the store topic is still to be added.
+- Docs: salt and TDS shown in ppm (= mg/L) with a generic icon, a deliberate
+  choice while Gladys has no category for them.
 
 ## [0.1.1] - 2026-10-15
 

@@ -17,7 +17,8 @@ import { recommendationsText } from './measures.js';
 /**
  * The features of the measures. Gladys has no salt nor TDS category: both are
  * generic sensors in ppm (Ondilo gives the salt in mg/L, the same value in
- * water: 4000 ppm = 4 g/L).
+ * water: 4000 ppm = 4 g/L). A deliberate exception, see TODO.md "Decisions"
+ * (2026-10-17): never change their category, unit or external id key.
  */
 export const FEATURES = {
   temperature: {

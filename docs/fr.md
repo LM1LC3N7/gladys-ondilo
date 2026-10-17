@@ -86,6 +86,11 @@ toutes les 5 minutes).
 
 Les recommandations gardent la langue de votre compte Ondilo.
 
+## Limites
+
+- Le sel et le TDS sont affichés en ppm (= mg/L) avec une icône générique :
+  Gladys n'a pas encore de catégorie pour ces mesures.
+
 ## Dépannage
 
 - **« Ondilo a refusé l'autorisation enregistrée »** : le mot de passe du
