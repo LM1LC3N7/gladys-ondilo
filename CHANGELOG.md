@@ -10,6 +10,8 @@ the notes of the version's GitHub Release.
 
 ## [Unreleased]
 
+## [0.1.2] - 2026-10-17
+
 ### Changed
 
 - README: the store install note replaces the work-in-progress notice, and the
@@ -38,5 +40,6 @@ the notes of the version's GitHub Release.
 - Cloud badge on the devices, flagged when no measure arrived for 3 hours.
 - Feature names in French or English.
 
-[Unreleased]: https://github.com/LM1LC3N7/gladys-ondilo/compare/v0.1.1...HEAD
+[Unreleased]: https://github.com/LM1LC3N7/gladys-ondilo/compare/v0.1.2...HEAD
+[0.1.2]: https://github.com/LM1LC3N7/gladys-ondilo/compare/v0.1.1...v0.1.2
 [0.1.1]: https://github.com/LM1LC3N7/gladys-ondilo/releases/tag/v0.1.1
